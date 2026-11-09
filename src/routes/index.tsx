@@ -153,7 +153,13 @@ function Hero() {
             alt="Emblema de Xclusive: gota de obsidiana y cristal rojo con un árbol escarlata"
             width={1024}
             height={622}
-            className="relative w-full mix-blend-screen [mask-image:radial-gradient(ellipse_40%_52%_at_50%_36%,black_60%,transparent_100%)]"
+            className="relative w-full mix-blend-screen"
+            style={{
+              maskImage:
+                "linear-gradient(to bottom, black 66%, transparent 77%), radial-gradient(ellipse 42% 60% at 50% 40%, black 60%, transparent 100%)",
+              maskComposite: "intersect",
+              WebkitMaskComposite: "source-in",
+            }}
           />
         </div>
 
