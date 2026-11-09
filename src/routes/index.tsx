@@ -147,12 +147,13 @@ function Hero() {
           className="relative w-[min(78vw,520px)]"
           style={{ transform: `translateY(${y * 0.18}px) scale(${1 - Math.min(y, 600) / 6000})` }}
         >
+          <div className="absolute inset-[-30%] bg-ember" />
           <img
             src={emblem.url}
             alt="Emblema de Xclusive: gota de obsidiana y cristal rojo con un árbol escarlata"
             width={1024}
             height={622}
-            className="w-full mix-blend-screen [mask-image:radial-gradient(ellipse_55%_60%_at_50%_42%,black_55%,transparent_80%)]"
+            className="relative w-full mix-blend-screen [mask-image:radial-gradient(ellipse_40%_52%_at_50%_36%,black_60%,transparent_100%)]"
           />
         </div>
 
@@ -181,11 +182,7 @@ function Hero() {
         </Reveal>
       </div>
 
-      <div className="absolute bottom-8 left-1/2 z-10 flex -translate-x-1/2 flex-col items-center gap-3">
-        <span className="eyebrow !text-[0.55rem]">Desciende</span>
-        <span className="h-12 w-px bg-gradient-to-b from-silver/60 to-transparent" />
-      </div>
-    </section>
+</section>
   );
 }
 
