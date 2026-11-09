@@ -156,7 +156,7 @@ function Hero() {
             className="relative w-full mix-blend-screen"
             style={{
               maskImage:
-                "linear-gradient(to bottom, black 66%, transparent 77%), radial-gradient(ellipse 42% 60% at 50% 40%, black 60%, transparent 100%)",
+                "linear-gradient(to bottom, black 73%, transparent 79%), radial-gradient(ellipse 42% 60% at 50% 40%, black 60%, transparent 100%)",
               maskComposite: "intersect",
               WebkitMaskComposite: "source-in",
             }}
